@@ -1,0 +1,212 @@
+h1{
+	color: black; 
+	font-size: 40px; 
+	font-family: "palatino"; 
+	text-align: center; 
+	width: 100%; 
+	max-width: 1200px; 
+	margin: 0px auto;
+	
+}
+
+.chartTitle{  
+	font-family: "palatino"; 
+	text-align: center; 
+	
+}
+
+.chartTitleWhite{  
+	color: white; 
+	font-family: "palatino"; 
+	text-align: center; 
+	
+}
+
+
+body{
+	width: 100%; 
+	max-width: 1200px; 
+	margin: 0px auto;
+	margin-bottom: 20px; 
+
+}
+
+
+article{ 
+	width: 96%; 
+	margin-right: 2%;   
+	margin-left: 2%;
+	margin-top: 20px; 
+	margin-bottom: 20px;  
+	float: left; 
+}
+
+
+footer{
+	background-color: black; 
+	color: white;  
+	padding-top: 20px; 
+	padding-bottom: 20px; 
+	width: 100%; 
+	font-family: "verdana"; 
+	font-size: 12px; 
+	clear: both; 
+	text-align: center; 
+}
+
+
+#about-spills{
+	background-color: black; 
+	color: white;  
+	padding-top: 20px; 
+	padding-bottom: 20px; 
+	width: 96%;  
+	padding-left: 2%; 
+	padding-right: 2%; 
+	font-family: "verdana"; 
+	font-size: 12px; 
+
+}
+
+
+#map-div{
+	width: 68%;
+	padding-left: 2.5%; 
+	padding-right: 2.5%; 
+	margin-right:2%;
+	margin-bottom: 20px;    
+	float: left;  
+	background-color: #ffffcc; 
+	}
+	
+#map-div2{
+	width: 100%;   
+    height: 85%; 
+	background-color: #ffffcc; 
+	height: 350px; 
+	}
+	
+#MAP{
+	border: none; 
+	width: 100%; 
+	height: 100%; 
+
+}
+
+#time-div{
+	width: 68%;
+	padding-left: 2.5%; 
+	padding-right: 2.5%;  
+	margin-right:2%; 
+	margin-bottom: 20px;   
+	float: left; 
+	background-color: #c2e699; 
+}
+
+#year-div{
+
+}
+
+#month-div{
+	display: none; 
+}
+
+#YearLine{  
+	margin-top: 10px;  
+	margin-bottom: 7px;
+
+}
+
+button{
+	color: black; 
+	background-color: #ffffff;   
+	margin-bottom: 3px; 
+	font-family: "verdana"; 
+	border-radius: 0px 0px 0px 0px; 
+
+}
+#aside{
+	width: 20%;
+	padding-left: 2.5%; 
+	padding-right: 2.5%; 
+	padding-bottom: 5%; 
+	padding-top: 5%;  
+	float: right; 
+	background-color: #41b6c4; 	
+}
+
+
+.bignumber-white{
+	font-family: "verdana"; 
+	font-size: 50px; 
+	text-align: center; 
+	margin-bottom: 4px; 
+	margin-top: 4px; 
+	color: white;
+	font-weight: bold; 
+	
+
+}
+
+.bignumber-black{
+	font-family: "verdana"; 
+	font-size: 40px; 
+	text-align: center; 
+	margin-bottom: 4px; 
+	margin-top: 4px; 
+	color: black ; 
+	font-weight: bold;
+
+}
+
+
+.descrip{
+	font-family: "palatino"; 
+	font-size: 20px; 
+	text-align: center; 
+	margin-top: 2px; 
+	color: #474a4f; 
+}
+
+#bar-div-type{
+ 	width: 33%;
+ 	padding-left: 2.5%; 
+	padding-right: 2.5%;  
+ 	margin-right; 2%;  
+	 
+	float: left; 
+	background-color:#225ea8; 
+
+}
+
+#bar-div-threat{
+ 	width: 55%; 
+ 	padding-left: 2.5%; 
+	padding-right: 2.5%;    
+	float: right; 
+	background-color:#78c679;   
+
+}
+
+
+.aside-desc{
+	padding: 3%; 
+	width: 94%; 
+	font-sixe; 12px; 
+}
+
+.flourish-embed{
+	background-color: none; 
+
+
+}
+
+
+
+
+
+
+
+
+
+

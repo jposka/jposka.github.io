@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Iowa Hazardous Material Spills</title>
+		<link href="https://fonts.googleapis.com/css?family=Chango|Nanum+Gothic" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="Style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+		
+	
+		</style>
+	
+	  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css">
+	  
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet-src.min.js"></script>
+  	<script src="  https://unpkg.com/datalib@1.9.2/datalib.min.js"></script>
+  	
+  	
+	
+	</head>
+	
+	
+	<body>
+		<header>
+		<h1>Iowa Manure Spills 2010-2019<h1>
+			<div id="about-spills">
+				<p>These visualizations are based on data from the Iowa Department of Natural Resources' Hazardous Spill Incident Database. Iowa law requires those people who store, handle or transport manure and other animal waste products to report spills within six hours of onset or discovery. Nutrients and pathogens held within manure can make their way into water sources after spills, causing human illnesses and ecological disturbances, including toxic algae blooms and fish kills.  <p>
+			    <p> Data ends at April 6 2019. </p>
+			</div>
+		</header>
+		
+<main>
+	   			
+	
+	<article>
+	
+	   		<div id="map-div">
+	   		 	<h3 class="chartTitle"> Manure Spills per 100k Acres</h3>
+	   		 	<div id="map-div2">
+	   		 	<iframe id=MAP src="map\map.html"></iframe>
+	   			</div>
+	   		</div>
+	   		
+	   		<div id="aside" >
+	  		
+	  			
+	  			<p class="bignumber-white">539</p>
+	  			<p class="descrip"> Spills since 2010  </p>
+	  			
+	  			<p class="bignumber-black" >58.3</p>
+	  			<p class = "descrip"> Spills per year on average </p>
+	  			
+	  			<p class="bignumber-white" >41</p>
+	  			<p class="descrip"> Most spills in one county </p>
+	  			
+	  			<p class="bignumber-black" >77%</p>
+	  			<p class="descrip"> Of spills were hog manure </p>
+	  			
+	  			<p class="bignumber-white" >27%</p>
+	  			<p class="descrip"> Of spills occur in November </p>
+	  			
+	  			
+	  		 
+	  		 </div>
+	   		
+	   		<div id="time-div" >
+	   			
+	   			<div id="year-div">
+	   				<h3 class="chartTitle"> Manure Spills per Year </h3>
+	   				<div id="YearLine" class="flourish-embed" data-src="visualisation/330442"></div>  <script src="https://public.flourish.studio/resources/embed.js"></script>
+				</div>
+	   		
+	   		
+	   			<div id="month-div" >
+	   				<h3 class="chartTitle"> Manure Spills per Month </h3>
+	   				<div  id="Month Line" class="flourish-embed" data-src="visualisation/330632"></div> <script src="https://public.flourish.studio/resources/embed.js"></script>
+				</div>
+				<button id="YearButton"> Year </button>
+				<button id="MonthButton"> Month </button>
+			</div>
+	   		
+	   		<div id="bar-div-type" >
+	   			<h3 class="chartTitleWhite" > Manure Spills by Type </h3>
+	   			<div id="typeBar" class="flourish-embed" data-src="visualisation/330484"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+	   		</div>  
+	   		
+	   		<div id="bar-div-threat" >
+	   			<h3 class="chartTitle"> Resources Threatened by Manure Spills </h3>
+	   			<div class="flourish-embed" data-src="visualisation/330516"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+	   			
+	   		</div>  
+	   		
+	
+	
+	 </article>
+	
+	</main>
+
+
+
+	<footer>
+		<p> Copyright Julia Poska 2019</p>
+	</footer>
+	  
+  <script src="final.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	  
+	  <script script type="text/javascript">
+	  
+	 $("#YearButton").click(function(){
+	  	$("#year-div").show(); 
+	    $("#month-div").hide(); 
+	    
+	  })
+	  
+	$("#MonthButton").click(function(){
+	  	$("#month-div").show();
+	  	$("#year-div").hide();
+	  	
+	  })
+	 
+
+	
+	  </script>
+	  
+
+	</body>
+
+</html>
+
+
