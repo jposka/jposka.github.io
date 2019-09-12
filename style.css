@@ -115,7 +115,8 @@ hr{
 }
 
 .box:hover{
-	margin: 1%; 
+	margin: 1%;
+	margin-bottom: 3%;  
 }
 
 
