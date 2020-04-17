@@ -66,8 +66,20 @@ main{
 	font-size: 20px;
 	margin-top: 0px; ;
 	margin-bottom: 10px;
+}
 
+#resume{
+		font-family: "source sans pro";
+		text-align: center;
+			color: #50226b;
+		font-size: 20px;
+		margin-top: 0px; ;
+		margin-bottom: 10px;
 
+}
+
+#resume:hover{
+		color:#134e80 ;
 }
 
 p{
@@ -125,7 +137,7 @@ hr{
 
 
 .box:hover .section{
-	font-size: 50px;
+	font-size: 45px;
 }
 
 .box:hover{
@@ -139,6 +151,8 @@ hr{
 	float: left;
 	margin-right: 0%;
 	width: 30%;
+	margin-right: 3%;
+	margin-bottom: 0px;
 	background-color: #8c96c6;
 }
 
@@ -152,7 +166,9 @@ hr{
 
 #Features{
 	float: right;
+	margin-left: 0%;
 	width: 48%;
+
 	background-color: #b116ad;
 }
 
@@ -230,6 +246,16 @@ margin-top: 3%;
 	margin-right: 10%;
 	margin-top: 5%;
 	margin-bottom: 5%;
+
+}
+
+.design{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
 
 }
 
