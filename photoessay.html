@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Julia Poska Portfolio</title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Staatliches&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+		</style>
+	</head>
+	
+	
+	<body>
+		
+		<main>
+				<h3 id="about">Away</h3>
+				<h4 class="contact">Photo essay from Sept. 2019 </h4>
+				
+				
+				<!--
+				<div id="Slideshow">
+			
+				<img class="PhotoEssay" id="PE-01" src="Photo_Essay/Photo-Essay-01.jpg">
+				<img class="PhotoEssay" id="PE-02" src="Photo_Essay/Photo-Essay-02.jpg">
+				<img class="PhotoEssay" id="PE-03" src="Photo_Essay/Photo-Essay-03.jpg">
+				<img class="PhotoEssay" id="PE-04" src="Photo_Essay/Photo-Essay-04.jpg">
+				<img class="PhotoEssay" id="PE-05" src="Photo_Essay/Photo-Essay-05.jpg">
+				<img class="PhotoEssay" id="PE-06" src="Photo_Essay/Photo-Essay-06.jpg">
+				<img class="PhotoEssay" id="PE-07" src="Photo_Essay/Photo-Essay-07.jpg">
+				<img class="PhotoEssay" id="PE-08" src="Photo_Essay/Photo-Essay-08.jpg">
+				<img class="PhotoEssay" id="PE-09" src="Photo_Essay/Photo-Essay-09.jpg">
+				<img class="PhotoEssay" id="PE-10" src="Photo_Essay/Photo-Essay-10.jpg">
+				<img class="PhotoEssay" id="PE-11" src="Photo_Essay/Photo-Essay-11.jpg">
+				<img class="PhotoEssay" id="PE-12" src="Photo_Essay/Photo-Essay-12.jpg">
+				<img class="PhotoEssay" id="PE-13" src="Photo_Essay/Photo-Essay-13.jpg">
+				<img class="PhotoEssay" id="PE-14" src="Photo_Essay/Photo-Essay-14.jpg">
+				<img class="PhotoEssay" id="PE-15" src="Photo_Essay/Photo-Essay-15.jpg">
+
+				<div id="buttons">
+				<button class="slideshow" id="back">Back</button>
+				<button class="slideshow" id="next">Next</button> 
+				</div>
+				
+				</div>
+				-->	
+				
+				<div id="Slideshow2">
+				  <img class="PhotoEssay2 PhotoEssay2_Active" id="PE-011" src="Photo_Essay/Photo-Essay-01.jpg">
+				  <img class="PhotoEssay2" id="PE-021" src="Photo_Essay/Photo-Essay-02.jpg">
+				  <img class="PhotoEssay2" id="PE-031" src="Photo_Essay/Photo-Essay-03.jpg">
+				  <img class="PhotoEssay2" id="PE-041" src="Photo_Essay/Photo-Essay-04.jpg">
+				  <img class="PhotoEssay2" id="PE-051" src="Photo_Essay/Photo-Essay-05.jpg">
+				  <img class="PhotoEssay2" id="PE-061" src="Photo_Essay/Photo-Essay-06.jpg">
+				  <img class="PhotoEssay2" id="PE-071" src="Photo_Essay/Photo-Essay-07.jpg">
+				  <img class="PhotoEssay2" id="PE-081" src="Photo_Essay/Photo-Essay-08.jpg">
+				  <img class="PhotoEssay2" id="PE-091" src="Photo_Essay/Photo-Essay-09.jpg">
+				  <img class="PhotoEssay2" id="PE-101" src="Photo_Essay/Photo-Essay-10.jpg">
+				  <img class="PhotoEssay2" id="PE-111" src="Photo_Essay/Photo-Essay-11.jpg">
+				  <img class="PhotoEssay2" id="PE-121" src="Photo_Essay/Photo-Essay-12.jpg">
+				  <img class="PhotoEssay2" id="PE-131" src="Photo_Essay/Photo-Essay-13.jpg">
+				  <img class="PhotoEssay2" id="PE-14" src="Photo_Essay/Photo-Essay-14.jpg">
+				  <img class="PhotoEssay2" id="PE-151" src="Photo_Essay/Photo-Essay-15.jpg">
+				</div>
+				
+				<div id="buttons">
+				<button class="slideshow" id="back">Back</button>
+				<button class="slideshow" id="next">Next</button> 
+				</div>
+				
+		</main>
+		
+		<footer>
+		
+		<p>Copyright Julia Poska 2019</p>
+	
+		</footer>
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  
+	  <script script type="text/javascript">
+	  
+	  $("#next").click(function(){
+	  	$(".PhotoEssay").hide(); 
+	  	$("#PE-02").show(); 
+	  })
+	  
+	   $("#back").click(function(){
+	  	$(".PhotoEssay").hide();
+	  	$("#PE-15").show();
+	  })
+	  
+	  var count = 0;
+	  var max = 15;
+	  
+	  $("#next").click(function(){
+	    if(count == max) {
+	      count = 0;
+	    } else {
+	      count++;
+	    }
+	  	$(".PhotoEssay2").hide();
+	  	$(".PhotoEssay2").removeClass("#PhotoEssay2_Active");
+	  	$(".PhotoEssay2").get(count).addClass("#PhotoEssay2_Active");
+	  })
+	  
+	   $("#back").click(function(){
+	     if(count == 0) {
+	       count = max;
+	     } else {
+	       count--;
+		}
+	  	$(".PhotoEssay2").hide();
+	  	$(".PhotoEssay2").removeClass("#PhotoEssay2_Active");
+	  	$("#Slideshow2").get(count).show();
+	  	$("#Slideshow2").get(count).addClass("#PhotoEssay2_Active");
+	  })
+	  
+	  </script>
+	  
+	</body>
+
+</html>
+
+
