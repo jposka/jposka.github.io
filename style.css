@@ -250,9 +250,11 @@ margin-top: 3%;
 }
 
 .design{
-
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 
 }
 
@@ -261,9 +263,6 @@ margin-top: 3%;
 	margin-right: 10%;
 }
 
-h3{
-
-}
 
 #smmsvid{
 	width: 60%;
@@ -274,12 +273,7 @@ h3{
 
  }
 
-#Designs{
-	width: 80%;
-	margin-left: 20%;
-	margin-right: 20%; 
 
-}
 
 @media (max-width: 800px){
 
