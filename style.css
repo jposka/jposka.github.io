@@ -301,7 +301,9 @@ margin-top: 3%;
 
 #Marketing{
 	width: 88%;
-	clear: both; 
+	margin-left: 3%;
+	margin-right: 3%; 
+	clear: both;
 
 }
 }
