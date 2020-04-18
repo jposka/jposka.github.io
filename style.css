@@ -307,3 +307,40 @@ margin-top: 3%;
 
 }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#Multimedia {
+	clear: both;
+	width: 88%;
+}
+
+#Live-Coverage{
+	clear: both;
+	width: 88%;
+
+}
+
+#Features{
+	clear: both;
+	width: 88%;
+}
+
+#News {
+	clear: both;
+	width: 88%;
+
+}
+
+#Marketing{
+	width: 88%;
+	margin-left: 3%;
+	margin-right: 3%;
+	clear: both;
+
+}	
+	
+	
+	
+	
+	
+}
